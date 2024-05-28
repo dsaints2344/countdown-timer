@@ -12,7 +12,7 @@ const Layout: FC<Props> = ({ children }) => {
     return <>
         <Box backgroundImage={bgStars}
             backgroundPosition="center"
-            backgroundRepeat="no-repeat"
+            backgroundRepeat="repeat"
             height="100vh"
             minWidth="100vw"
             minHeight="100vh"
@@ -31,7 +31,7 @@ const Layout: FC<Props> = ({ children }) => {
                 height="193px" // Set the height of the footer (adjust as needed)
                 backgroundImage={patternHills}
                 backgroundPosition="center" // Optional: control footer image position
-                backgroundRepeat="no-repeat" // Optional: control footer image repeat
+                backgroundRepeat="repeat" // Optional: control footer image repeat
             />
         </Box>
     </>;

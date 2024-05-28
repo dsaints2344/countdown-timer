@@ -1,26 +1,14 @@
 import moment from "moment";
 import { useEffect, useState } from "react";
-import { Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
+import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
+import '@leenguyen/react-flip-clock-countdown/dist/index.css';
 
 const Timer = () => {
 
-    const [timeLeft, setTimeLeft] = useState(moment.duration(5, "minutes"));
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            handleTimeLeft()
-        }, 1000);
-
-        return () => clearInterval(interval);
-    }, [])
-
-    const handleTimeLeft = () => {
-        setTimeLeft(prevTimeLeft => prevTimeLeft.clone().subtract(1, 'second'));
-    }
-
-    return <div>
-        <Text color="white">Time left: {timeLeft.hours()}:{timeLeft.minutes()}:{timeLeft.seconds()}</Text>
-    </div>
+    return <Box alignItems="center">
+        <FlipClockCountdown to={new Date().getTime() + 24 * 3600 * 1000 + 5000} ></FlipClockCountdown>
+    </Box>
 }
 
 export default Timer;
