@@ -1,6 +1,5 @@
 import moment from "moment";
-import { useEffect, useState } from "react";
-import { Box, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 import '@leenguyen/react-flip-clock-countdown/dist/index.css';
 
