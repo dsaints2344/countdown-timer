@@ -8,6 +8,7 @@ const App = () => {
       <Layout>
         <Box alignItems="center">
           <Text fontSize="3xl"
+            align="center"
             letterSpacing="16px"
             fontFamily="'Red Hat Text', sans-serif"
             color="neutral.white"

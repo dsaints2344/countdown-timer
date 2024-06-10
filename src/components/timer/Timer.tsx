@@ -14,14 +14,18 @@ const Timer = () => {
                 width: "80px",
                 fontSize: "67px",
                 fontFamily: "'Red Hat Text', sans-serif",
-                backgroundColor: "#343650"
+                backgroundColor: "#343650",
+                boxShadow: "0px 12px #1e1f29"
             }}
             labelStyle={{
                 color: "#6C6A83",
                 fontFamily: "'Red Hat Text', sans-serif",
-                fontSize: "14px"
+                fontSize: "14px",
+                paddingTop: "9px"
+
             }}
-            to={new Date().getTime() + 24 * 3600 * 1000 + 5000} showSeparators={false} spacing={{ clock: 10 }}></FlipClockCountdown>
+            labels={['DAYS', 'HOURS', 'MINUTES', 'SECONDS']}
+            to={moment().add(5, "minutes").toDate().getTime()} showSeparators={false} spacing={{ clock: 10 }}></FlipClockCountdown>
     </Box>
 }
 
