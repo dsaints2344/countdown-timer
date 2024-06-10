@@ -10,8 +10,9 @@ const Timer = () => {
             digitBlockStyle={{
                 color: '#fb6087',
                 fontWeight: '700',
-                width: "80px",
-                fontSize: "67px",
+                width: "130px",
+                height: "150px",
+                fontSize: "99px",
                 fontFamily: "'Red Hat Text', sans-serif",
                 backgroundColor: "#343650",
                 boxShadow: "0px 12px #1e1f29"
