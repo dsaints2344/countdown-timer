@@ -1,7 +1,10 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Center, Flex, Image, Spacer } from "@chakra-ui/react";
 import { FC, ReactNode } from "react";
 import bgStars from "../assets/bg-stars.svg";
-import patternHills from "../assets/pattern-hills.svg"
+import patternHills from "../assets/pattern-hills.svg";
+import fbIcon from "../assets/icon-facebook.svg";
+import igIcon from "../assets/icon-instagram.svg";
+import pinterestIcon from "../assets/icon-pinterest.svg";
 
 interface Props {
     children?: ReactNode;
@@ -32,7 +35,24 @@ const Layout: FC<Props> = ({ children }) => {
                 backgroundImage={patternHills}
                 backgroundPosition="center" // Optional: control footer image position
                 backgroundRepeat="repeat" // Optional: control footer image repeat
-            />
+            >
+                <Center paddingTop="90px">
+                    <Flex>
+                        <Box w="50px">
+                            <Image src={fbIcon} />
+                        </Box>
+                        <Spacer />
+                        <Box w="50px">
+                            <Image src={pinterestIcon} />
+                        </Box>
+                        <Spacer />
+                        <Box w="50px">
+                            <Image src={igIcon} />
+                        </Box>
+                    </Flex>
+                </Center>
+
+            </Box>
         </Box>
     </>;
 }
