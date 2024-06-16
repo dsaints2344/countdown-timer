@@ -1,10 +1,10 @@
 import { Box, Center, Flex, Image, Spacer } from "@chakra-ui/react";
 import { FC, ReactNode } from "react";
-import bgStars from "../assets/bg-stars.svg";
-import patternHills from "../assets/pattern-hills.svg";
-import fbIcon from "../assets/icon-facebook.svg";
-import igIcon from "../assets/icon-instagram.svg";
-import pinterestIcon from "../assets/icon-pinterest.svg";
+import bgStars from "../../public/assets/bg-stars.svg";
+import patternHills from "../../public/assets/pattern-hills.svg";
+import fbIcon from "../../public/assets/icon-facebook.svg";
+import igIcon from "../../public/assets/icon-instagram.svg";
+import pinterestIcon from "../../public/assets/icon-pinterest.svg";
 
 interface Props {
     children?: ReactNode;
