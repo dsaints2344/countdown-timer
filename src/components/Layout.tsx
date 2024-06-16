@@ -17,7 +17,7 @@ const Layout: FC<Props> = ({ children }) => {
             backgroundPosition="center"
             backgroundRepeat="repeat"
             height="100vh"
-            minWidth="100vw"
+            minW="100vw"
             minHeight="100vh"
             backgroundColor="neutral.veryDarkMostlyBlackBlue"
             display="flex" // Enable flexbox layout

@@ -10,9 +10,9 @@ const Timer = () => {
             digitBlockStyle={{
                 color: '#fb6087',
                 fontWeight: '700',
-                width: "130px",
-                height: "150px",
-                fontSize: "99px",
+                width: "9vw",
+                height: "9vw",
+                fontSize: "6.5vw",
                 fontFamily: "'Red Hat Text', sans-serif",
                 backgroundColor: "#343650",
                 boxShadow: "0px 12px #1e1f29"
@@ -20,12 +20,12 @@ const Timer = () => {
             labelStyle={{
                 color: "#6C6A83",
                 fontFamily: "'Red Hat Text', sans-serif",
-                fontSize: "14px",
+                fontSize: "1.2vw",
                 paddingTop: "9px"
 
             }}
             labels={['DAYS', 'HOURS', 'MINUTES', 'SECONDS']}
-            to={moment().add(5, "minutes").toDate().getTime()} showSeparators={false} spacing={{ clock: 10 }}></FlipClockCountdown>
+            to={moment().add(5, "hours").toDate().getTime()} showSeparators={false} hideOnComplete={false} spacing={{ clock: 10 }}></FlipClockCountdown>
     </Box>
 }
 
