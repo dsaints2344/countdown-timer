@@ -25,7 +25,7 @@ const Timer = () => {
 
             }}
             labels={['DAYS', 'HOURS', 'MINUTES', 'SECONDS']}
-            to={moment().add(5, "hours").toDate().getTime()} showSeparators={false} hideOnComplete={false} spacing={{ clock: 10 }}></FlipClockCountdown>
+            to={moment().add(14, "days").toDate().getTime()} showSeparators={false} hideOnComplete={false} spacing={{ clock: 10 }}></FlipClockCountdown>
     </Box>
 }
 
