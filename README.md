@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/Screenshot_Timer.png.jpg)
+![](./screenshots/Screenshot_Timer.png)
 
 ### Links
 
