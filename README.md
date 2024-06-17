@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/dsaints2344/countdown-timer)
-- Live Site URL: [Add live site URL here](https://countdown-timer-seven-nu.vercel.app/)
+- Solution URL: [solution](https://github.com/dsaints2344/countdown-timer)
+- Live Site URL: [live site](https://countdown-timer-seven-nu.vercel.app/)
 
 ## My process
 
